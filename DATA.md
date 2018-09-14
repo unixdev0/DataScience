@@ -13,17 +13,31 @@ To solve the problem our service will rely on open datasets generated from the f
 - GeoCoder/Google Geolocation APIs
 - Foursquare APIs
 
+## DATA SOURCES SUMMARY
+- Toronto Boroughs/Neighbourhoods: a list of postal codes in Canada where the first letter is M. Postal codes beginning with M are located within the city of Toronto in the province of Ontario
+
+- Canada Census - Toronto Demographics: a list of demographic data on each Toronto neighbourhood as taken from the Canadian Census.
+
+- GeoCoder/Google Geolocation APIs: converts addresses into geographic coordinates
+
+- Foursquare APIs: offers rich location-based experiences and enables access to millions of up to date business venues, tips, photos and many other helpful tips
+
+
 ### Toronto Borouhs/Neighbourhoods
 
 Toronto Borough/Neighbourhood table contains a list of postal codes in Canada where the first letter is M. Postal codes beginning with M are located within the city of Toronto in the province of Ontario. Only the first three characters are listed, corresponding to the Forward Sortation Area.
 
 Note: There are no rural FSAs in Toronto, hence no postal codes start with M0.
 
+Please refer to the Data Report for more details: 
+
 ### Canada Census - demographic data on each Toronto neighbourhood
 
-The list of demographic data on each Toronto neighbourhood is taken from the 2006 Canadian census.
+The list of demographic data on each Toronto neighbourhood is taken from the 2011 Canadian census.
 
 Note: Neighbourhood boundaries are approximated to the nearest census tract - https://en.wikipedia.org/wiki/Census_tract
+
+Please refer to the Data Report for more details: 
 
 ### GeoCoder/Google Geolocation APIs
 
