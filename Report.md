@@ -6,6 +6,7 @@
 
 # DATA REPORT
 **See full data report for more details:** [Here](https://github.com/unixdev0/DataScience/blob/master/DataReport.pdf)
+
 **Note**: The full data report contains more detailed information. The current document only highlights the concepts described at length in the data report. 
 
 ## CONTENT 
@@ -21,10 +22,12 @@
 
 ## INTRODUCTION
 The city of Toronto has approached our company to help them develop a service that helps the entrepreneurs who want to establish new businesses in the city of Toronto select an ideal business location based on the ethnic communities they want to be a part of. 
+
 This service will help find an ideal location for a new business based on such factors as business venue, population density in the area, the demographics in the area, average income, proximity to other business venues.
 
 ### PROBLEM STATEMENT
 Business success/failure depends on a vast spectrum of economics and demographics factors. Entrepreneurs may want to find an optimal venue and geographic location for their new business venture. Such an optimal venue/place selection process has to consider various indicators that may deliver long and prosperous existence for any new business.
+
 Successful businesses help the economy grow, lower the unemployment, and reduce crime. The multicultural city of Toronto wants to offer such an online service where the entrepreneurs can receive all the necessary information that will help them in picking the location for their new ventures based on their desire to support a specific ethnic community of Toronto.
 
 
@@ -47,10 +50,13 @@ To solve the problem our service will rely on open datasets generated from the f
 - GeoCoder/Google Geolocation APIs
 - Foursquare APIs
 
-Toronto Boroughs/Neighbourhoods: a list of postal codes in Canada where the first letter is M. Postal codes beginning with M are located within the city of Toronto in the province of Ontario
-Canada Census - Toronto Demographics: a list of demographic data on each Toronto neighbourhood as taken from the Canadian Census.
-GeoCoder/Google Geolocation APIs: converts addresses into geographic coordinates
-Foursquare APIs: offers rich location-based experiences and enables access to millions of up to date business venues, tips, photos and many other helpful tips
+**Toronto Boroughs/Neighbourhoods**: a list of postal codes in Canada where the first letter is M. Postal codes beginning with M are located within the city of Toronto in the province of Ontario
+
+**Canada Census - Toronto Demographics**: a list of demographic data on each Toronto neighbourhood as taken from the Canadian Census.
+
+**GeoCoder/Google Geolocation APIs**: converts addresses into geographic coordinates
+
+**Foursquare APIs**: offers rich location-based experiences and enables access to millions of up to date business venues, tips, photos and many other helpful tips
 
 ## METHODOLOGY
 REPORT - MAIN COMPONENTS
@@ -63,7 +69,9 @@ REPORT - MAIN COMPONENTS
 **MACHINE LEARNING** - UNSUPERVISED MACHINE LEARNING K-MEANS: In order to cluster various regions of the city based on the business analysis requirements the solution utilizes the unsupervised machine learning algorithm **K-MEANS**
 
 **DATA RESULTS** - Present the finding to the stakeholders
+
 **DISCUSSION** - discuss data investigative findings based on the results
+
 **CONCLUSION** - report conclusions
 
 ## MACHINE LEARNING
