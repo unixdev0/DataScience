@@ -3,6 +3,8 @@
 <hr>
 
 # DATA REPORT
+**See full data report for more details:** [Here](https://github.com/unixdev0/DataScience/blob/master/DataReport.pdf)
+**Note**: The full data report contains more detailed information. The current document only highlights the concepts described at length in the data report. 
 
 ## CONTENT 
 - INTRODUCTION - WE INTRODUCE THE PROBLEM 
@@ -50,13 +52,17 @@ Foursquare APIs: offers rich location-based experiences and enables access to mi
 
 ## METHODOLOGY
 REPORT - MAIN COMPONENTS
-DATA [ACQUISITION/POST-PROCESSING/SUMMARY] - in order to perform statistical inference, and apply the machine learning algorithms, the data must be acquired and pre-processed based on the rules derived from the preliminary data analysis
-DATA ANALYSIS - Identify the significant informational indicators to use in inferential statistics and machine learning algorithm [Unsupervised: K-Means]
-DATA ANALYSIS - Statistical Validation: The datasets underwent statistical analysis and cross referencing in order to determine the data validity and proper distribution, mean and standard deviations, outlier identification.
-MACHINE LEARNING - UNSUPERVISED MACHINE LEARNING K-MEANS: In order to cluster various regions of the city based on the business analysis requirements the solution utilizes the unsupervised machine learning algorithm K-MEANS
-DATA RESULTS - Present the finding to the stakeholders
-DISCUSSION - discuss data investigative findings based on the results
-CONCLUSION - report conclusions
+**DATA** [ACQUISITION/POST-PROCESSING/SUMMARY] - in order to perform statistical inference, and apply the machine learning algorithms, the data must be acquired and pre-processed based on the rules derived from the preliminary data analysis
+
+**DATA ANALYSIS** - Identify the significant informational indicators to use in inferential statistics and machine learning algorithm [Unsupervised: K-Means]
+
+**DATA ANALYSIS** - Statistical Validation: The datasets underwent statistical analysis and cross referencing in order to determine the data validity and proper distribution, mean and standard deviations, outlier identification.
+
+**MACHINE LEARNING** - UNSUPERVISED MACHINE LEARNING K-MEANS: In order to cluster various regions of the city based on the business analysis requirements the solution utilizes the unsupervised machine learning algorithm **K-MEANS**
+
+**DATA RESULTS** - Present the finding to the stakeholders
+**DISCUSSION** - discuss data investigative findings based on the results
+**CONCLUSION** - report conclusions
 
 ## MACHINE LEARNING
 OUR DATA ANALYSIS SHOWS LACK OF PROPER DATA LABELING IN THE DATASETS USED BY THE SOLUTION
@@ -65,6 +71,9 @@ WE SUGGEST USING K-MEANS UNSUPERVISED MACHINE LEARNING ALGORITHM TO IDENTIFY GEO
 IN ORDER TO PERFORM ACCURATE GEO CLUSTERING OUR ALGORITHM RELIES ON GOOGLE GEO LOCATIONS AND FOURSQUARE APIS
 
 ## DATA RESULTS
+
+**See full data report for more details:** [Here](https://github.com/unixdev0/DataScience/blob/master/DataReport.pdf)
+
 ### SUGGESTED NEIGHBOURHOODS
 - Westmount
 - Bathurst Manor
@@ -75,11 +84,11 @@ IN ORDER TO PERFORM ACCURATE GEO CLUSTERING OUR ALGORITHM RELIES ON GOOGLE GEO L
 - The Kingsway
 - Deer Park
 
-Total Number of venues: 93
-Total Number of unique categories: 54
-Total Number of clusters: 8
+**Total Number of venues: 93**
+**Total Number of unique categories: 54**
+**Total Number of clusters: 8**
 
-Cluster 0: Etobicoke-Ukrainian
+**Cluster 0:** _Etobicoke-Ukrainian_
 Recommendations for Cluster 0: 
 American Restaurant
 Ice Cream Shop	
@@ -93,7 +102,7 @@ Mexican Restaurant
 Pharmacy
 
 
-Cluster 1:Etobicoke-Ukrainian
+**Cluster 1:** _Etobicoke-Ukrainian_
 Recommendations for Cluster 1:
 American Restaurant	
 Indie Movie Theater	
@@ -107,7 +116,7 @@ Mexican Restaurant
 Pet Store
 
 
-Cluster 2: West Toronto-Ukrainian
+**Cluster 2:** _West Toronto-Ukrainian_
 Recommendations for Cluster 2:
 American Restaurant	
 Frozen Yogurt Shop	
@@ -120,7 +129,7 @@ Mexican Restaurant
 Park	
 Pet Store
 
-Cluster 3:Etobicoke-Ukrainian
+**Cluster 3:** _Etobicoke-Ukrainian_
 Recommendations for Cluster 3:
 American Restaurant	
 Video Store	
@@ -133,7 +142,7 @@ Metro Station
 Mexican Restaurant	
 Park
 
-Cluster 4:Etobicoke-Russian
+**Cluster 4:** _Etobicoke-Russian_
 Recommendations for Cluster 4:
 Ice Cream Shop	
 Grocery Store	
@@ -146,7 +155,7 @@ Light Rail Station
 Metro Station	
 Park
 
-Cluster 5:North York-Russian
+**Cluster 5:** _North York-Russian_
 Recommendations for Cluster 5:
 American Restaurant	
 Gastropub	
@@ -159,10 +168,18 @@ Light Rail Station
 Liquor Store	
 Mexican Restaurant
 
-Cluster 6:North York-Russian
+**Cluster 6:** _North York-Russian_
 Recommendations for Cluster 6:
+Gastropub	
+Gym	
+Indie Movie Theater	
+Intersection	
+Italian Restaurant	
+Ice Cream Shop	
+Indie Movie Theater	
+Italian Restaurant	
 
-Cluster 7:Etobicoke-Ukrainian
+**Cluster 7:** _Etobicoke-Ukrainian_
 Recommendations for Cluster 7:
 American Restaurant	
 Grocery Store	
@@ -178,13 +195,18 @@ Mexican Restaurant
 
 ## DISCUSSION
 THERE ARE VERY INTERESTING TRENDS SHOWING UP N THE DATA ANALYSIS THAT SUGGEST THAT IT IS POSSIBLE TO RECOMMEND NEW LOCATIONS TO BUSINESSES THAT WANT TO EXPAND OR NEW BUSINESSES LOOKING FOR THE FIRST LOCATION.
+
 THERE ARE MULTIPLE STATISTICAL METHODOLOGIES THAT CAN BE EMPLOYED TO FORMULATE A SOUND BUSINESS HYPOTHESIS. SUCH FORMULATED HYPOTHESIS DO REQUIRE VALIDATION VIA GATHERING AND PROCESSING THE SUPPORTING EVIDENCE.
+
 SUCH SUPPORTING EVIDENCE CAN BE PRODUCED BY EMPLOYING ONE OR MORE MACHINE LEARNING ALGORITHMS.
+
 THERE IS ADDITIONAL POTENTIAL IN EMPLOYING A RECOMMENDER SYSTEM ALGORITHM TO FURTHER IMPROVE THE RECOMMENDATIONS REPORT BASED ON A NUMBER OF BUSINESS REQUIREMENTS.
 
 ## CONCLUSION
 GIVEN ENOUGH RELEVANT DATA IT IS POSSIBLE TO GENERATE SUFFICIENT AMOUNT OF SUPPORTING EVIDENCE IN ORDER TO RECOMMEND WITH A HIGH LEVEL OF PRECISION GEO LOCATIONS FOR NEW OR GROWING BUSINESSES. 
+
 THE CURRENT PROJECT DEMONSTRATES THAT A NEW LOCATION CAN BE SELECTED BASED ON A LIST OF INDICATORS DERIVED VIA INFERENTIAL STATISTICS AND THE RESULTS PROCESSED WITH K-MEANS CLUSTERING MACHINE LEARNING ALGORITHM.
+
 BEING A BUSINESS WITH CLOSE TIES TO VARIOUS ETHNIC COMMUNITIES IN TORONTO WE DEFINITELY CONCUR THAT THE FINDINGS PRESENTED IN THIS REPORT HAVE STRONG MERITS.
 
 
