@@ -10,6 +10,6 @@
 
 ### FILES YOU WILL NEED TO REVIEW MY CAPSTONE PROJECT
 
-- [x] Notebook [IBM-Applied-Data-Science-Capstone](https://github.com/unixdev0/DataScience/blob/master/IBM-Applied-Data-Science-Capstone.ipynb) - try refreshing GitHub fails to load
+- [x] Notebook [IBM-Applied-Data-Science-Capstone](https://github.com/unixdev0/DataScience/blob/master/IBM-Applied-Data-Science-Capstone.ipynb) - try refreshing if GitHub fails to load this file
 - [x] Data Report [Data.md](https://github.com/unixdev0/DataScience/blob/master/DATA.md)
-- [x] Presentation [DataReport.pdf](https://github.com/unixdev0/DataScience/blob/master/DataReport.pdf) - try refreshing GitHub fails to load
+- [x] Presentation [DataReport.pdf](https://github.com/unixdev0/DataScience/blob/master/DataReport.pdf) - try refreshing if GitHub fails to load this file
